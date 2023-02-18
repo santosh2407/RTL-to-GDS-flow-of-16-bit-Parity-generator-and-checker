@@ -1,0 +1,703 @@
+Qflow route logfile created on Sunday 19 February 2023 12:13:27 AM IST
+qrouter -noc  -s Paritygen.cfg
+Qrouter detail maze router version 1.4.59.T
+Reading LEF data from file /usr/local/share/qflow/tech/osu018/osu018_stdcells.lef.
+LEF Read, Line 191: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 192: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 196: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 197: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 207: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 208: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 212: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 213: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 223: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 224: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 228: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 229: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 239: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 240: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 244: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 245: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 255: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 256: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 260: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 261: NOTE:  Old format VIARULE ignored.
+LEF file:  Defines site core (ignored)
+LEF read: Processed 2941 lines.
+LEF Read: encountered 0 errors and 20 warnings total.
+Vertical route layer at non-minimum pitch 1.6.  Using smaller pitch 0.8, will route on 1-of-2 tracks for layer metal6.
+Reading DEF data from file Paritygen.def.
+Diagnostic: Design name: "Paritygen"
+  Processed 5 vias total.
+  Processed 98 subcell instances total.
+  Processed 23 pins total.
+  Processed 106 nets total (0 fixed).
+  Processed 2 special nets total (3 fixed).
+DEF read: Processed 675 lines.
+Output scale = microns / 100, precision 1
+No antenna cell defined!
+There are 107 nets in this design.
+*** Running stage1 routing with defaults
+Finished routing net in[0]
+Nets remaining: 106
+Finished routing net in[3]
+Nets remaining: 105
+Finished routing net in[2]
+Nets remaining: 104
+Finished routing net in[1]
+Nets remaining: 103
+Finished routing net in[4]
+Nets remaining: 102
+Finished routing net in[5]
+Nets remaining: 101
+Finished routing net in[6]
+Nets remaining: 100
+Finished routing net in[7]
+Nets remaining: 99
+Finished routing net in[14]
+Nets remaining: 98
+Finished routing net in[15]
+Nets remaining: 97
+Finished routing net in[8]
+Nets remaining: 96
+Finished routing net in[9]
+Nets remaining: 95
+Finished routing net in[13]
+Nets remaining: 94
+Failed to route net in[12]
+Finished routing net in[10]
+Nets remaining: 93
+Finished routing net in[11]
+Nets remaining: 92
+Finished routing net _18_
+Nets remaining: 91
+Finished routing net _17_
+Nets remaining: 90
+Finished routing net _19_
+Nets remaining: 89
+Finished routing net _20_
+Nets remaining: 88
+Finished routing net _21_
+Nets remaining: 87
+Finished routing net _22_
+Nets remaining: 86
+Finished routing net _23_
+Nets remaining: 85
+Finished routing net _24_
+Nets remaining: 84
+Finished routing net _25_
+Nets remaining: 83
+Finished routing net _26_
+Nets remaining: 82
+Finished routing net _27_
+Nets remaining: 81
+Finished routing net _28_
+Nets remaining: 80
+Finished routing net _29_
+Nets remaining: 79
+Finished routing net _30_
+Nets remaining: 78
+Finished routing net _32_
+Nets remaining: 77
+Finished routing net _15_
+Nets remaining: 76
+Finished routing net _10_
+Nets remaining: 75
+Finished routing net _33_
+Nets remaining: 74
+Finished routing net _34_
+Nets remaining: 73
+Finished routing net _35_
+Nets remaining: 72
+Finished routing net _37_
+Nets remaining: 71
+Finished routing net _82_
+Nets remaining: 70
+Finished routing net _38_
+Nets remaining: 69
+Finished routing net _39_
+Nets remaining: 68
+Finished routing net _41_
+Nets remaining: 67
+Finished routing net _43_
+Nets remaining: 66
+Finished routing net _44_
+Nets remaining: 65
+Finished routing net _45_
+Nets remaining: 64
+Finished routing net _46_
+Nets remaining: 63
+Finished routing net _48_
+Nets remaining: 62
+Finished routing net _50_
+Nets remaining: 61
+Finished routing net _52_
+Nets remaining: 60
+Finished routing net _54_
+Nets remaining: 59
+Finished routing net _55_
+Nets remaining: 58
+Finished routing net _56_
+Nets remaining: 57
+Finished routing net _57_
+Nets remaining: 56
+Finished routing net _58_
+Nets remaining: 55
+Finished routing net _59_
+Nets remaining: 54
+Finished routing net _60_
+Nets remaining: 53
+Finished routing net _62_
+Nets remaining: 52
+Finished routing net _63_
+Nets remaining: 51
+Failed to route net _64_
+Failed to route net _65_
+Finished routing net _67_
+Nets remaining: 50
+Finished routing net _3_
+Nets remaining: 49
+Finished routing net _5_
+Nets remaining: 48
+Finished routing net _69_
+Nets remaining: 47
+Finished routing net _11_
+Nets remaining: 46
+Finished routing net _12_
+Nets remaining: 45
+Finished routing net _70_
+Nets remaining: 44
+Finished routing net _7_
+Nets remaining: 43
+Failed to remove stacked via at grid point 53 27.
+Failed to route net _9_
+Finished routing net _72_
+Nets remaining: 42
+Finished routing net _13_
+Nets remaining: 41
+Finished routing net _14_
+Nets remaining: 40
+Finished routing net _73_
+Nets remaining: 39
+Finished routing net _74_
+Nets remaining: 38
+Finished routing net _76_
+Nets remaining: 37
+Finished routing net _79_
+Nets remaining: 36
+Finished routing net _2_
+Nets remaining: 35
+Finished routing net _4_
+Nets remaining: 34
+Finished routing net _6_
+Nets remaining: 33
+Finished routing net _8_
+Nets remaining: 32
+Finished routing net _31_
+Nets remaining: 31
+Finished routing net _16_
+Nets remaining: 30
+Finished routing net _36_
+Nets remaining: 29
+Finished routing net _40_
+Nets remaining: 28
+Finished routing net _42_
+Nets remaining: 27
+Finished routing net _47_
+Nets remaining: 26
+Finished routing net _49_
+Nets remaining: 25
+Finished routing net _51_
+Nets remaining: 24
+Finished routing net _53_
+Nets remaining: 23
+Finished routing net _61_
+Nets remaining: 22
+Finished routing net _66_
+Nets remaining: 21
+Finished routing net _68_
+Nets remaining: 20
+Failed to remove stacked via at grid point 68 26.
+Failed to route net _71_
+Finished routing net _75_
+Nets remaining: 19
+Finished routing net _77_
+Nets remaining: 18
+Finished routing net _78_
+Nets remaining: 17
+Finished routing net _80_
+Nets remaining: 16
+Finished routing net _81_
+Nets remaining: 15
+Finished routing net _0_
+Nets remaining: 14
+Finished routing net _1_
+Nets remaining: 13
+Finished routing net _83_
+Nets remaining: 12
+Finished routing net che
+Nets remaining: 11
+Finished routing net evenche
+Nets remaining: 10
+Finished routing net evenp
+Nets remaining: 9
+Finished routing net oddche
+Nets remaining: 8
+Finished routing net oddp
+Nets remaining: 7
+Finished routing net vdd
+Nets remaining: 6
+
+----------------------------------------------
+Progress: Stage 1 total routes completed: 204
+Failed net routes: 5
+----------------------------------------------
+*** Running stage2 routing with options mask 10, effort 10
+Nets remaining: 5
+Nets remaining: 4
+Best route of _9_ collides with net: _27_ 
+Ripping up blocking net _27_
+Nets remaining: 4
+Best route of _65_ collides with nets: _60_ in[0] 
+Ripping up blocking net _60_
+Ripping up blocking net in[0]
+Nets remaining: 5
+Best route of _64_ collides with net: _63_ 
+Ripping up blocking net _63_
+Nets remaining: 5
+Best route of in[12] collides with net: in[13] 
+Ripping up blocking net in[13]
+Nets remaining: 5
+Nets remaining: 4
+Nets remaining: 3
+Nets remaining: 2
+Nets remaining: 1
+
+----------------------------------------------
+Progress: Stage 2 total routes completed: 224
+No failed routes!
+----------------------------------------------
+*** Running stage3 routing with defaults, 1st round
+Finished routing net in[0]
+Nets remaining: 106
+Finished routing net in[3]
+Nets remaining: 105
+Finished routing net in[2]
+Nets remaining: 104
+Finished routing net in[1]
+Nets remaining: 103
+Finished routing net in[4]
+Nets remaining: 102
+Finished routing net in[5]
+Nets remaining: 101
+Finished routing net in[6]
+Nets remaining: 100
+Finished routing net in[7]
+Nets remaining: 99
+Finished routing net in[14]
+Nets remaining: 98
+Finished routing net in[15]
+Nets remaining: 97
+Finished routing net in[8]
+Nets remaining: 96
+Finished routing net in[9]
+Nets remaining: 95
+Finished routing net in[13]
+Nets remaining: 94
+Finished routing net in[12]
+Nets remaining: 93
+Finished routing net in[10]
+Nets remaining: 92
+Finished routing net in[11]
+Nets remaining: 91
+Finished routing net _18_
+Nets remaining: 90
+Finished routing net _17_
+Nets remaining: 89
+Finished routing net _19_
+Nets remaining: 88
+Finished routing net _20_
+Nets remaining: 87
+Finished routing net _21_
+Nets remaining: 86
+Finished routing net _22_
+Nets remaining: 85
+Finished routing net _23_
+Nets remaining: 84
+Finished routing net _24_
+Nets remaining: 83
+Finished routing net _25_
+Nets remaining: 82
+Finished routing net _26_
+Nets remaining: 81
+Finished routing net _27_
+Nets remaining: 80
+Finished routing net _28_
+Nets remaining: 79
+Finished routing net _29_
+Nets remaining: 78
+Finished routing net _30_
+Nets remaining: 77
+Finished routing net _32_
+Nets remaining: 76
+Finished routing net _15_
+Nets remaining: 75
+Finished routing net _10_
+Nets remaining: 74
+Finished routing net _33_
+Nets remaining: 73
+Finished routing net _34_
+Nets remaining: 72
+Finished routing net _35_
+Nets remaining: 71
+Finished routing net _37_
+Nets remaining: 70
+Finished routing net _82_
+Nets remaining: 69
+Finished routing net _38_
+Nets remaining: 68
+Finished routing net _39_
+Nets remaining: 67
+Finished routing net _41_
+Nets remaining: 66
+Finished routing net _43_
+Nets remaining: 65
+Finished routing net _44_
+Nets remaining: 64
+Finished routing net _45_
+Nets remaining: 63
+Finished routing net _46_
+Nets remaining: 62
+Finished routing net _48_
+Nets remaining: 61
+Finished routing net _50_
+Nets remaining: 60
+Finished routing net _52_
+Nets remaining: 59
+Finished routing net _54_
+Nets remaining: 58
+Finished routing net _55_
+Nets remaining: 57
+Keeping route for net _56_
+Finished routing net _57_
+Nets remaining: 55
+Finished routing net _58_
+Nets remaining: 54
+Finished routing net _59_
+Nets remaining: 53
+Finished routing net _60_
+Nets remaining: 52
+Finished routing net _62_
+Nets remaining: 51
+Finished routing net _63_
+Nets remaining: 50
+Finished routing net _64_
+Nets remaining: 49
+Finished routing net _65_
+Nets remaining: 48
+Finished routing net _67_
+Nets remaining: 47
+Finished routing net _3_
+Nets remaining: 46
+Finished routing net _5_
+Nets remaining: 45
+Finished routing net _69_
+Nets remaining: 44
+Finished routing net _11_
+Nets remaining: 43
+Finished routing net _12_
+Nets remaining: 42
+Finished routing net _70_
+Nets remaining: 41
+Finished routing net _7_
+Nets remaining: 40
+Finished routing net _9_
+Nets remaining: 39
+Finished routing net _72_
+Nets remaining: 38
+Keeping route for net _13_
+Finished routing net _14_
+Nets remaining: 36
+Failed to remove stacked via at grid point 23 15.
+Failed to route net _73_; restoring original
+Finished routing net _74_
+Nets remaining: 34
+Finished routing net _76_
+Nets remaining: 33
+Finished routing net _79_
+Nets remaining: 32
+Finished routing net _2_
+Nets remaining: 31
+Finished routing net _4_
+Nets remaining: 30
+Finished routing net _6_
+Nets remaining: 29
+Finished routing net _8_
+Nets remaining: 28
+Finished routing net _31_
+Nets remaining: 27
+Keeping route for net _16_
+Keeping route for net _36_
+Finished routing net _40_
+Nets remaining: 24
+Keeping route for net _42_
+Keeping route for net _47_
+Keeping route for net _49_
+Keeping route for net _51_
+Keeping route for net _53_
+Finished routing net _61_
+Nets remaining: 18
+Finished routing net _66_
+Nets remaining: 17
+Finished routing net _68_
+Nets remaining: 16
+Finished routing net _71_
+Nets remaining: 15
+Finished routing net _75_
+Nets remaining: 14
+Finished routing net _77_
+Nets remaining: 13
+Finished routing net _78_
+Nets remaining: 12
+Keeping route for net _80_
+Finished routing net _81_
+Nets remaining: 10
+Keeping route for net _0_
+Finished routing net _1_
+Nets remaining: 8
+Keeping route for net _83_
+Keeping route for net che
+Finished routing net evenche
+Nets remaining: 5
+Finished routing net evenp
+Nets remaining: 4
+Finished routing net oddche
+Nets remaining: 3
+Finished routing net oddp
+Nets remaining: 2
+Finished routing net vdd
+Nets remaining: 1
+
+----------------------------------------------
+Progress: Stage 3 total routes completed: 417
+No failed routes!
+----------------------------------------------
+*** Running stage3 routing with defaults, 2nd round
+Finished routing net in[0]
+Nets remaining: 106
+Finished routing net in[3]
+Nets remaining: 105
+Finished routing net in[2]
+Nets remaining: 104
+Finished routing net in[1]
+Nets remaining: 103
+Finished routing net in[4]
+Nets remaining: 102
+Finished routing net in[5]
+Nets remaining: 101
+Finished routing net in[6]
+Nets remaining: 100
+Finished routing net in[7]
+Nets remaining: 99
+Finished routing net in[14]
+Nets remaining: 98
+Finished routing net in[15]
+Nets remaining: 97
+Finished routing net in[8]
+Nets remaining: 96
+Finished routing net in[9]
+Nets remaining: 95
+Finished routing net in[13]
+Nets remaining: 94
+Finished routing net in[12]
+Nets remaining: 93
+Finished routing net in[10]
+Nets remaining: 92
+Finished routing net in[11]
+Nets remaining: 91
+Finished routing net _18_
+Nets remaining: 90
+Finished routing net _17_
+Nets remaining: 89
+Finished routing net _19_
+Nets remaining: 88
+Finished routing net _20_
+Nets remaining: 87
+Finished routing net _21_
+Nets remaining: 86
+Finished routing net _22_
+Nets remaining: 85
+Finished routing net _23_
+Nets remaining: 84
+Finished routing net _24_
+Nets remaining: 83
+Finished routing net _25_
+Nets remaining: 82
+Finished routing net _26_
+Nets remaining: 81
+Finished routing net _27_
+Nets remaining: 80
+Finished routing net _28_
+Nets remaining: 79
+Finished routing net _29_
+Nets remaining: 78
+Finished routing net _30_
+Nets remaining: 77
+Finished routing net _32_
+Nets remaining: 76
+Finished routing net _15_
+Nets remaining: 75
+Finished routing net _10_
+Nets remaining: 74
+Finished routing net _33_
+Nets remaining: 73
+Finished routing net _34_
+Nets remaining: 72
+Finished routing net _35_
+Nets remaining: 71
+Finished routing net _37_
+Nets remaining: 70
+Finished routing net _82_
+Nets remaining: 69
+Finished routing net _38_
+Nets remaining: 68
+Finished routing net _39_
+Nets remaining: 67
+Finished routing net _41_
+Nets remaining: 66
+Finished routing net _43_
+Nets remaining: 65
+Finished routing net _44_
+Nets remaining: 64
+Finished routing net _45_
+Nets remaining: 63
+Finished routing net _46_
+Nets remaining: 62
+Finished routing net _48_
+Nets remaining: 61
+Finished routing net _50_
+Nets remaining: 60
+Finished routing net _52_
+Nets remaining: 59
+Finished routing net _54_
+Nets remaining: 58
+Finished routing net _55_
+Nets remaining: 57
+Keeping route for net _56_
+Finished routing net _57_
+Nets remaining: 55
+Finished routing net _58_
+Nets remaining: 54
+Finished routing net _59_
+Nets remaining: 53
+Finished routing net _60_
+Nets remaining: 52
+Finished routing net _62_
+Nets remaining: 51
+Finished routing net _63_
+Nets remaining: 50
+Finished routing net _64_
+Nets remaining: 49
+Finished routing net _65_
+Nets remaining: 48
+Finished routing net _67_
+Nets remaining: 47
+Finished routing net _3_
+Nets remaining: 46
+Finished routing net _5_
+Nets remaining: 45
+Finished routing net _69_
+Nets remaining: 44
+Finished routing net _11_
+Nets remaining: 43
+Finished routing net _12_
+Nets remaining: 42
+Finished routing net _70_
+Nets remaining: 41
+Finished routing net _7_
+Nets remaining: 40
+Finished routing net _9_
+Nets remaining: 39
+Finished routing net _72_
+Nets remaining: 38
+Keeping route for net _13_
+Finished routing net _14_
+Nets remaining: 36
+Failed to remove stacked via at grid point 23 15.
+Failed to route net _73_; restoring original
+Finished routing net _74_
+Nets remaining: 34
+Finished routing net _76_
+Nets remaining: 33
+Finished routing net _79_
+Nets remaining: 32
+Finished routing net _2_
+Nets remaining: 31
+Finished routing net _4_
+Nets remaining: 30
+Finished routing net _6_
+Nets remaining: 29
+Finished routing net _8_
+Nets remaining: 28
+Finished routing net _31_
+Nets remaining: 27
+Keeping route for net _16_
+Keeping route for net _36_
+Finished routing net _40_
+Nets remaining: 24
+Keeping route for net _42_
+Keeping route for net _47_
+Keeping route for net _49_
+Keeping route for net _51_
+Keeping route for net _53_
+Finished routing net _61_
+Nets remaining: 18
+Finished routing net _66_
+Nets remaining: 17
+Finished routing net _68_
+Nets remaining: 16
+Finished routing net _71_
+Nets remaining: 15
+Finished routing net _75_
+Nets remaining: 14
+Finished routing net _77_
+Nets remaining: 13
+Finished routing net _78_
+Nets remaining: 12
+Keeping route for net _80_
+Finished routing net _81_
+Nets remaining: 10
+Keeping route for net _0_
+Finished routing net _1_
+Nets remaining: 8
+Keeping route for net _83_
+Keeping route for net che
+Finished routing net evenche
+Nets remaining: 5
+Finished routing net evenp
+Nets remaining: 4
+Finished routing net oddche
+Nets remaining: 3
+Finished routing net oddp
+Nets remaining: 2
+Finished routing net vdd
+Nets remaining: 1
+
+----------------------------------------------
+Progress: Stage 3 total routes completed: 610
+No failed routes!
+----------------------------------------------
+*** Writing DEF file Paritygen_route.def
+emit_routes():  DEF file has 106 nets and 3 specialnets.
+but qrouter wants to write 107 nets and specialnets.
+----------------------------------------------
+Final: No failed routes!
+----------------------------------------------
+*** Writing RC file Paritygen_route.rc
+Running annotate.tcl antenna.out /home/santoshvlsi/Desktop/WORKSPACE/PARIT_GEN/synthesis/Paritygen.rtlnopwr.v
+  /home/santoshvlsi/Desktop/WORKSPACE/PARIT_GEN/synthesis/Paritygen.spc /home/santoshvlsi/Desktop/WORKSPACE/PARIT_GEN/synthesis/Paritygen.rtlnopwr.anno.v
+  /home/santoshvlsi/Desktop/WORKSPACE/PARIT_GEN/synthesis/Paritygen.anno.spc  /usr/local/share/qflow/tech/osu018/osu018_stdcells.sp /home/santoshvlsi/Desktop/WORKSPACE/PARIT_GEN/synthesis/Paritygen_powerground
+Running annotate.tcl
+found cell FILL pinlist vdd gnd
+Done with annotate.tcl
+Router script ended on Sunday 19 February 2023 12:13:27 AM IST

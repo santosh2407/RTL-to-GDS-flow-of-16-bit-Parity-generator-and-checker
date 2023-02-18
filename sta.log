@@ -1,0 +1,94 @@
+Qflow static timing analysis logfile created on Sunday 19 February 2023 12:13:21 AM IST
+Running vesta static timing analysis
+vesta --long Paritygen.rtlnopwr.v /usr/local/share/qflow/tech/osu018/osu018_stdcells.lib
+----------------------------------------------
+Vesta static timing analysis tool
+for qflow 1.3.17
+(c) 2013-2018 Tim Edwards, Open Circuit Design
+----------------------------------------------
+
+Parsing library "osu018_stdcells"
+End of library at line 6141
+Parsing module "Paritygen"
+Lib read /usr/local/share/qflow/tech/osu018/osu018_stdcells.lib:  Processed 6142 lines.
+Verilog netlist read:  Processed 103 lines.
+Number of paths analyzed:  0
+
+Top 0 maximum delay paths:
+Computed maximum clock frequency (zero margin) = inf MHz
+-----------------------------------------
+
+Number of paths analyzed:  0
+
+Top 0 minimum delay paths:
+Design meets minimum hold timing.
+-----------------------------------------
+
+Number of paths analyzed:  4
+
+Top 4 maximum delay paths:
+Path input pin in[13] to output pin evenp delay 710.147 ps
+      0.0 ps  in[13]:              ->   INVX1_12/A
+     55.4 ps     _2_:   INVX1_12/Y -> NAND2X1_30/A
+    160.5 ps    _11_: NAND2X1_30/Y -> AOI22X1_16/A
+    290.0 ps    _15_: AOI22X1_16/Y ->   NOR2X1_4/B
+    359.9 ps    _16_:   NOR2X1_4/Y ->  NAND2X1_9/A
+    463.9 ps    _32_:  NAND2X1_9/Y ->  NAND3X1_1/A
+    570.7 ps    _68_:  NAND3X1_1/Y -> NAND2X1_24/A
+    640.5 ps    _81_: NAND2X1_24/Y ->    BUFX2_3/A
+    710.1 ps   evenp:    BUFX2_3/Y -> evenp
+
+Path input pin in[13] to output pin oddp delay 709.584 ps
+      0.0 ps  in[13]:              ->   INVX1_12/A
+     55.4 ps     _2_:   INVX1_12/Y -> NAND2X1_30/A
+    160.5 ps    _11_: NAND2X1_30/Y -> AOI22X1_12/A
+    291.7 ps    _70_: AOI22X1_12/Y ->   NOR2X1_2/B
+    363.0 ps    _71_:   NOR2X1_2/Y ->  OAI21X1_1/C
+    461.6 ps    _74_:  OAI21X1_1/Y ->  NAND3X1_4/A
+    570.0 ps     _1_:  NAND3X1_4/Y -> NAND2X1_25/A
+    640.0 ps    _83_: NAND2X1_25/Y ->    BUFX2_5/A
+    709.6 ps    oddp:    BUFX2_5/Y -> oddp
+
+Path input pin in[0] to output pin oddche delay 120.13 ps
+      0.0 ps   in[0]:           -> INVX1_5/A
+     50.8 ps    _82_: INVX1_5/Y -> BUFX2_4/A
+    120.1 ps  oddche: BUFX2_4/Y -> oddche
+
+Path input pin in[0] to output pin evenche delay 65.4867 ps
+      0.0 ps    in[0]:           -> BUFX2_2/A
+     65.5 ps  evenche: BUFX2_2/Y -> evenche
+
+-----------------------------------------
+
+Number of paths analyzed:  4
+
+Top 4 minimum delay paths:
+Path input pin in[0] to output pin evenche delay 62.1403 ps
+      0.0 ps    in[0]:           -> BUFX2_2/A
+     62.1 ps  evenche: BUFX2_2/Y -> evenche
+
+Path input pin in[0] to output pin oddche delay 120.13 ps
+      0.0 ps   in[0]:           -> INVX1_5/A
+     50.8 ps    _82_: INVX1_5/Y -> BUFX2_4/A
+    120.1 ps  oddche: BUFX2_4/Y -> oddche
+
+Path input pin in[14] to output pin oddp delay 454.761 ps
+      0.0 ps  in[14]:              ->  NAND2X1_2/B
+     82.0 ps    _20_:  NAND2X1_2/Y ->  AOI22X1_1/D
+    170.0 ps    _25_:  AOI22X1_1/Y ->  OAI22X1_1/C
+    282.6 ps    _33_:  OAI22X1_1/Y ->  NAND3X1_3/B
+    335.1 ps     _0_:  NAND3X1_3/Y -> NAND2X1_25/B
+    386.9 ps    _83_: NAND2X1_25/Y ->    BUFX2_5/A
+    454.8 ps    oddp:    BUFX2_5/Y -> oddp
+
+Path input pin in[8] to output pin evenp delay 456.255 ps
+      0.0 ps  in[8]:              ->  NAND2X1_8/B
+     82.0 ps   _29_:  NAND2X1_8/Y -> AOI22X1_13/D
+    169.1 ps   _72_: AOI22X1_13/Y ->  OAI21X1_1/A
+    287.0 ps   _74_:  OAI21X1_1/Y ->  NAND3X1_2/A
+    338.7 ps   _80_:  NAND3X1_2/Y -> NAND2X1_24/B
+    388.6 ps   _81_: NAND2X1_24/Y ->    BUFX2_3/A
+    456.3 ps  evenp:    BUFX2_3/Y -> evenp
+
+-----------------------------------------
+

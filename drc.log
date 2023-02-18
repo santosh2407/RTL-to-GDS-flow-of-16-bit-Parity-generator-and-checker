@@ -1,0 +1,24 @@
+Qflow DRC logfile created on Sunday 19 February 2023 12:13:33 AM IST
+magic -dnull -noconsole  /home/santoshvlsi/Desktop/WORKSPACE/PARIT_GEN/layout/run_drc_Paritygen.tcl
+
+Magic 8.3 revision 50 - Compiled on Friday 17 February 2023 11:45:09 PM IST.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Input style lambda=0.10(p): scaleFactor=10, multiplier=1
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Loading "/home/santoshvlsi/Desktop/WORKSPACE/PARIT_GEN/layout/run_drc_Paritygen.tcl" from command line.
+Reading LEF data from file /usr/local/share/qflow/tech/osu018/osu018_stdcells.lef.
+This action cannot be undone.
+LEF read, Line 16 (Message): Unknown keyword "OBS" in LEF file; ignoring.
+LEF read, Line 17 (Message): Unknown keyword "PIN" in LEF file; ignoring.
+LEF read: Processed 2941 lines.
+Processing timestamp mismatches: NAND2X1, NAND3X1, NOR2X1, OAI22X1, FILL, OAI21X1, AOI22X1, INVX1, BUFX2, OR2X2.
+drc = 0
+DRC checking script ended on Sunday 19 February 2023 12:13:33 AM IST

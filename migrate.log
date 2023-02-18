@@ -1,0 +1,80 @@
+Qflow migration logfile created on Sunday 19 February 2023 12:13:32 AM IST
+magic -dnull -noconsole  migrate_Paritygen.tcl
+
+Magic 8.3 revision 50 - Compiled on Friday 17 February 2023 11:45:09 PM IST.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Input style lambda=0.10(p): scaleFactor=10, multiplier=1
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Loading "migrate_Paritygen.tcl" from command line.
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )
+
+microns:    0.00 x 0.00    (  0.00,  0.00 ), (  0.00,  0.00 )
+lambda:        0 x 0       (     0,  0    ), (     0,  0    )
+Reading LEF data from file /usr/local/share/qflow/tech/osu018/osu018_stdcells.lef.
+This action cannot be undone.
+LEF read, Line 16 (Message): Unknown keyword "OBS" in LEF file; ignoring.
+LEF read, Line 17 (Message): Unknown keyword "PIN" in LEF file; ignoring.
+LEF read: Processed 2941 lines.
+Reading DEF data from file Paritygen.def.
+This action cannot be undone.
+  Processed 5 vias total.
+  Processed 98 subcell instances total.
+  Processed 23 pins total.
+  Processed 106 nets total.
+DEF read, Line 1424 (Warning): Number of nets read (21) does not match the number declared (22).
+DEF read: Processed 1425 lines.
+DEF Read: encountered 1 warning total.
+Generating LEF output Paritygen.lef for cell Paritygen:
+Diagnostic:  Write LEF header for cell Paritygen
+Diagnostic:  Writing LEF output for cell Paritygen
+Diagnostic:  Scale value is 0.100000
+Extracting NAND3X1 into NAND3X1.ext:
+Completed 100%
+Extracting BUFX2 into BUFX2.ext:
+Completed 100%
+Extracting OAI22X1 into OAI22X1.ext:
+Completed 100%
+Extracting OAI21X1 into OAI21X1.ext:
+Completed 100%
+Extracting NOR2X1 into NOR2X1.ext:
+Completed 100%
+Extracting FILL into FILL.ext:
+Completed 100%
+Extracting AOI22X1 into AOI22X1.ext:
+Completed 100%
+Extracting INVX1 into INVX1.ext:
+Completed 100%
+Extracting NAND2X1 into NAND2X1.ext:
+Completed 100%
+Extracting OR2X2 into OR2X2.ext:
+Completed 100%
+Extracting Paritygen into Paritygen.ext:
+Completed 6%
+Completed 11%
+Completed 17%
+Completed 22%
+Completed 28%
+Completed 33%
+Completed 39%
+Completed 44%
+Completed 50%
+Completed 56%
+Completed 61%
+Completed 67%
+Completed 72%
+Completed 78%
+Completed 83%
+Completed 89%
+Completed 94%
+Completed 100%
+exttospice finished.
+Migration script ended on Sunday 19 February 2023 12:13:32 AM IST
